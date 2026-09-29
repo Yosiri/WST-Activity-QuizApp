@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRYPTONQUIZ SITE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main-box">
+            <h1 class="Header1">CRYPTONQUIZ SITE</h1>
+
+            <p class="RulesParagraph">
+                Try this cyber security quiz to improve your knowledge in Web Systems and Technologies.
+                This quiz has 5 multiple-choice questions and checks how much you know.
+            </p>
+
+            <div class="button-row">
+                <button type="button" id="OpenQuestion">Open</button>
+                <button type="button" id="CloseQuestion" class="close-btn">Close</button>
+            </div>
+
+            <div class="wholeQuestion" id="quizBox">
+                <h2 class="QuestionHeader">CRYPTOQUIZ</h2>
+
+                <form id="quizForm">
+                    <div class="FirstQ">
+                        <h3>Question 1</h3>
+                        <p>What does HTTPS help protect?</p>
+                        <label><input type="radio" name="q1" value="A"> A. Data in transit</label><br>
+                        <label><input type="radio" name="q1" value="B"> B. The computer screen</label><br>
+                        <label><input type="radio" name="q1" value="C"> C. The keyboard</label><br>
+                        <label><input type="radio" name="q1" value="D"> D. The mouse</label>
+                    </div>
+
+                    <div class="FirstQ">
+                        <h3>Question 2</h3>
+                        <p>Which one is used to keep data secret?</p>
+                        <label><input type="radio" name="q2" value="A"> A. Encryption</label><br>
+                        <label><input type="radio" name="q2" value="B"> B. Printer</label><br>
+                        <label><input type="radio" name="q2" value="C"> C. Screen saver</label><br>
+                        <label><input type="radio" name="q2" value="D"> D. Wi-Fi</label>
+                    </div>
+
+                    <div class="FirstQ">
+                        <h3>Question 3</h3>
+                        <p>What is a firewall mainly used for?</p>
+                        <label><input type="radio" name="q3" value="A"> A. To block unsafe traffic</label><br>
+                        <label><input type="radio" name="q3" value="B"> B. To block incoming update</label><br>
+                        <label><input type="radio" name="q3" value="C"> C. To block network access</label><br>
+                        <label><input type="radio" name="q3" value="D"> D. To block all traffic</label>
+                    </div>
+
+                    <div class="FirstQ">
+                        <h3>Question 4</h3>
+                        <p>What is the primary purpose of HTML?</p>
+                        <label><input type="radio" name="q4" value="A"> A. To structure web pages</label><br>
+                        <label><input type="radio" name="q4" value="B"> B. To play music</label><br>
+                        <label><input type="radio" name="q4" value="C"> C. To open websites</label><br>
+                        <label><input type="radio" name="q4" value="D"> D. To type documents</label>
+                    </div>
+                    <div class="FirstQ">
+                        <h3>Question 5</h3>
+                        <p>What is the main function of The a external CSS?</p>
+                        <label><input type="radio" name="q5" value="A"> A. To style web pages</label><br>
+                        <label><input type="radio" name="q5" value="B"> B. To add Style inside the Syntax</label><br>
+                        <label><input type="radio" name="q5" value="C"> C. To connect devices to a network</label><br>
+                        <label><input type="radio" name="q5" value="D"> D. To Make Buttons functional</label>
+                    </div>
+                    <button type="button" id="SubmitQuiz" class="submit-btn">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
